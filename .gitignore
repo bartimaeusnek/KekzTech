@@ -1,17 +1,7 @@
-# Compiled class file
-*.class
-
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files #
-#*.jar
 *.log.gz
 *.war
 *.nar
@@ -20,21 +10,63 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# java related things
 hs_err_pid*
+*.class
 /bin/
+
+# gradle related things
 /build/
-/crash-reports/
-/saves/
-/logs/
 /.gradle
 /.gradle/*
 .gradle
-eclipse/
-eclipse/*
+
+# minecraft related things
+options.txt
+usernamecache.json
+/logs/
+/crash-reports/
+/saves/
+/config/
+run/
+
+# intellij related things
+.idea/
+
+# other stuff
 out/
 out/*
-*.iml
 *.ipr
 *.iws
+*.iml
+/classes
+/.classpath
 
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.bat
